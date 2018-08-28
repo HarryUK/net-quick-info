@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>netQuickInfo</title>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="css/main.css" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+</head>
+<body>
+    <div class="start">
+        <div class="start box" id="welcome">
+            <h2>netQuickInfo</h2>
+            <div id="buttonboxb">
+                <button id="start-button" class="n-button">Start</button>
+                <button id="github" class="n-button">GitHub</button>
+            </div>
+        </div>
+        <div class="start box" id="menu">
+            <h2>netQuickInfo</h2>
+            <div id="holder">
+                <p>Connection: <span id="connection">No Connection</span></p>
+                <p>Hostname: <span id="hostname">No Hostname</span></p>
+                <p>Public IPv4: <span id="ipv4here">No Public IPv4</span></p>
+                <p>Public IPv6: <span id="ipv6here">No Public IPv6</span></p>
+                <p>Local IPv4: <span id="ipv4lochere">No Local IPv4</span></p>
+                <p>Local IPv6: <span id="ipv6lochere">No Local IPv6</span></p>
+                <p>MAC: <span id="mac">No MAC</span></p>
+            </div>
+            <button id="home" class="n-button">Home</button>
+        </div>
+    </div>
+    <footer>
+        F5 - Refresh<br>
+        CTRL/CMD+SHIFT+I - Dev tools
+    </footer>
+    <script src="function.js"></script>
+</body>
+</html>
