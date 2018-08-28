@@ -9,6 +9,9 @@ It works quickly and simply,
  - Once that's done run `npm start`
 And then netQuickInfo should run.
 
+## How it works?
+It works through Electron and various nodejs depedencies.
+
 ## What it will tell you:
 - Connection = Tells you if you are connected to the internet or not (uses Google)
 - Hostname = Tells you your Hostname
